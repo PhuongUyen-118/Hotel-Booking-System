@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.contact-info, .contact-form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    color: #2f3640;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.info-item i {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    background: #ffcc00;
+    color: #2f3640;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #2f3640;
+    color: #fff;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    color: #2f3640;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    border-color: #ffcc00;
+}
+
+button {
+    background: #ffcc00;
+    color: #2f3640;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2f3640;
+    color: #fff;
+}
+
+    /* FAQ Styles */
+        .faq-section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .faq-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq-question {
+            cursor: pointer;
+            padding: 15px;
+            background: #f7f7f7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background: #fff;
+        }
+        .faq-question.active {
+            background: #ffcc00;
+            color: #000;
+        }

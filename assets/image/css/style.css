@@ -1,0 +1,14 @@
+.hotel-detail-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}

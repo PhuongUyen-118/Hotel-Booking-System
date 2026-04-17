@@ -1,0 +1,174 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #003580;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+section {
+    background-color: #003580;
+    color: rgb(255, 255, 255);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+form input,
+form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input {
+    width: 200px;
+    max-width: 100%;
+}
+
+form button {
+    background-color: #0071c2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    section h1 {
+        font-size: 36px;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input,
+    form button {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    section h1 {
+        font-size: 28px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    header div {
+        font-size: 22px;
+    }
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+button {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #eee;
+}
+
+.trending-destinations {
+    color: #000; /* đổi màu chữ thành đen */
+}
+
+.trending-destinations h3,
+.trending-destinations span {
+    color: #000; /* hoặc màu dễ nhìn hơn như xanh đậm */
+}
+
+ 
